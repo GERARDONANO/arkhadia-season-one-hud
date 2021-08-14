@@ -575,19 +575,23 @@ code {
   color: var(--arkhadia-azul);
 }
 #matchbar .CT .round-thingy {
-  background-color: rgba(40, 171, 255, 0.5019607843137255);
+  /* background-color: rgba(40, 171, 255, 0.5019607843137255); */
+   background-color: rgba(7 ,117 , 254, 0.5019607843137255);
 }
 #matchbar .CT .round-thingy .inner {
-  background-color: #28abff;
+  /* background-color: #28abff; */
+  background-color: var(--arkhadia-azul);
 }
 #matchbar .T {
   color: var(--arkhadia-rojo);
 }
 #matchbar .T .round-thingy {
-  background-color: rgba(255, 198, 0, 0.5019607843137255);
+  /* background-color: rgba(255, 198, 0, 0.5019607843137255); */
+  background-color: rgba(255, 1, 65, 0.5019607843137255);
 }
 #matchbar .T .round-thingy .inner {
-  background-color: #ffc600;
+  /* background-color: #ffc600; */
+  background-color: var(--arkhadia-rojo);
 }
 #matchbar #timer {
   display: flex;
